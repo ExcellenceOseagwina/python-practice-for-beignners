@@ -49,5 +49,26 @@
 # for odd in range(1, 51):
 #     if odd % 2 == 1:
 #         print(odd)
- 
 
+# Question 6: Even or Odd Classification
+# Write a Python program that checks every number between 1 and 30 (inclusive).
+
+# for certain_number in range(1, 31):
+#     if certain_number % 2 == 0:
+#         print(f"{certain_number} is an even number")
+#     else:
+#         print(f"{certain_number} is an odd number")
+
+# Question 7: Positive, Negative, or Zero
+# Write a Python program that checks every number from -10 to 10 (inclusive).
+
+# for certain_number in range(-10, 11, 1):
+#     if certain_number < 0:
+#         print(f"{certain_number} is a negative number")
+#     elif certain_number > 0:
+#         print(f"{certain_number} is a positive number")
+#     else:
+#         print(f"{certain_number} is zero")
+        
+# Question 8: Divisibility Checker
+# Write a Python program that checks every number from 1 to 50 (inclusive).
