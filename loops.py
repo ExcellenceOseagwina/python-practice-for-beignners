@@ -1,3 +1,5 @@
+##################### For Loops ####################################
+
 # Question 1: Print Numbers
 # Write a Python program that prints every number from 1 to 20 (inclusive) using a for loop.
 
@@ -371,3 +373,4 @@
 # print(total)
 
 
+##################### While Loops ####################################
