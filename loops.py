@@ -374,3 +374,12 @@
 
 
 ##################### While Loops ####################################
+# Exercise 1 of 25
+# Basic Loop Practice
+# Task: Print Numbers from 1 to 20
+# Write a Python program that uses a while loop to print every integer from 1 to 20, inclusive.
+    
+i = 1
+while i <= 20:
+    print(i)
+    i += 1
