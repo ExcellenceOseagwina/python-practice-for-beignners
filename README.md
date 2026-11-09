@@ -40,11 +40,15 @@ Interactive scripts prompt for input in the terminal.
 | `cybersecurity/cybersecurity_risk_classifier.py` | Validating scores and classifying a risk score |
 | `games/game_profile.py` | Variables and formatted output |
 | `games/simple_guessing_game.py` | Comparisons and conditionals |
-| `loops/loops.py` | `for`-loop practice and `while`-loop exercises |
+| `loops/for_loops/number_ranges.py` | For-loop counting and number-range exercises |
+| `loops/for_loops/conditions.py` | For-loop condition and divisibility exercises |
+| `loops/for_loops/totals_and_counts.py` | For-loop accumulator and counting exercises |
+| `loops/while_loops/counting.py` | While-loop counting exercises |
 | `simulations/simple_atm_simulator.py` | Menu choices and simulated transactions |
 
-Many of the `for`-loop examples in `loops.py` are commented practice solutions;
-the active `while`-loop example prints the numbers 1 through 20.
+The loop exercises are grouped by loop type and topic under `loops/`. The
+`for`-loop examples are commented practice solutions; the active `while`-loop
+example prints the even numbers from 2 through 50.
 
 ## Note
 
