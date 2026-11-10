@@ -76,5 +76,3 @@
 # Exercise 7 of 25 – Count Even Numbers
 
 # Write a Python program that counts how many even numbers exist between 1 and 100.
-count = 0
-even = 1
