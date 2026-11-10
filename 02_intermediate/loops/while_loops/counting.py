@@ -76,3 +76,74 @@
 # Exercise 7 of 25 – Count Even Numbers
 
 # Write a Python program that counts how many even numbers exist between 1 and 100.
+# count = 0
+# even = 1
+
+# while even <= 100:
+#     if even % 2 ==0:
+#         count+=1
+#     even+=1
+# print(count)
+
+# Exercise 8 of 25 – Positive Number Validator
+
+# Now we're moving into a slightly different application of while loops.
+
+# Task: Write a Python program that continuously asks the user to enter a number until they enter a positive number.
+
+# positive_number = int(input("Enter positive number: "))
+
+# while positive_number <= 0:
+#     print("Invalid number. Try again.")
+#     positive_number = int(input("Enter positive number: "))
+
+# Exercise 9 of 25 – Sum of Odd Numbers
+
+# Let's combine two concepts you've already learned: conditional checking and accumulators.
+
+# Task: Write a Python program that calculates the sum of all odd numbers between 1 and 50, inclusive.
+
+# odd = 1
+# total = 0
+
+# while odd <= 50:
+#     if odd % 2 != 0:
+#         total += odd
+#     odd += 1
+# print(total)
+
+# Exercise 10 of 25 — Calculate the Average
+# Write a Python program that:
+# 1. Asks the user to enter five numbers.
+# 2. Adds all five numbers together.
+# 3. Calculates their average.
+# 4. Prints the final average.
+
+# Enter number: 10
+# Enter number: 20
+# Enter number: 30
+# Enter number: 40
+# Enter number: 50
+
+# Total: 150
+# Average: 30.0
+
+# count = 1
+# total = 0
+
+# while count <= 5:
+#     number = int(input("Enter number: "))
+#     total += number
+#     avg = total / 5
+#     count+=1        
+# print(f'''
+# Total: {total}
+# Average: {avg}
+# ''')
+
+# Exercise 11 of 25 — Stop a Loop at 13
+# Write a Python program that:
+# 1. Uses a while loop.
+# 2. Prints numbers from 1 to 20.
+# 3. Stops printing when the number reaches 13.
+# 4. Uses break to terminate the loop.

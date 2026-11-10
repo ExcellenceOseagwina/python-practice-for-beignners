@@ -1,54 +1,46 @@
-# Beginner Python Practice
+# Python Practice
 
-A collection of small, standalone Python programs for practicing beginner
-programming concepts. The examples cover variables, input and output,
-conditionals, arithmetic, and loops, with a few cybersecurity-themed exercises.
+A collection of standalone Python exercises arranged by learning level and topic.
+The levels are numbered so you can work through them in order.
 
 ## Requirements
 
 - Python 3
 - No third-party packages
 
+## Learning path
+
+### 01 Beginner
+
+- `01_beginner/basics/` — variables, values, and output
+- `01_beginner/calculators/` — basic arithmetic and operator selection
+- `01_beginner/games/` — simple guessing and comparisons
+- `01_beginner/loops/for_loops/` — ranges, counting, and multiplication tables
+
+### 02 Intermediate
+
+- `02_intermediate/calculators/` — bill splitting and tiered calculations
+- `02_intermediate/conditionals/` — validation and multi-step grade logic
+- `02_intermediate/cybersecurity/` — access checks and risk classification
+- `02_intermediate/games/` — formatted game profiles
+- `02_intermediate/loops/` — conditional loops, counters, and accumulators
+- `02_intermediate/simulations/` — menu-driven ATM transaction simulation
+
+### 03 Advanced
+
+There are no advanced exercises yet. See [`03_advanced/README.md`](03_advanced/README.md)
+for suggested next topics.
+
 ## Running an exercise
 
-Run a script from the project directory, using its topic folder:
+Run a script from the project root. For example:
 
 ```bash
-python calculators/simple_calculator.py
+python 01_beginner/calculators/simple_calculator.py
 ```
 
-Choose another `.py` file from the exercise list to run a different example.
-Interactive scripts prompt for input in the terminal.
-
-## Exercises
-
-| File | What it covers |
-| --- | --- |
-| `basics/bool.py` | Boolean values |
-| `basics/movie_rating.py` | Variables and output |
-| `basics/personal_profile_generator.py` | Variables and profile output |
-| `basics/print_variables.py` | Printing variables and student details |
-| `basics/worker_details.py` | Variables and formatted profile output |
-| `calculators/bill_split_calc.py` | Splitting a bill with a tip |
-| `calculators/electricity_bill_calculator.py` | User input and conditional bill calculations |
-| `calculators/simple_calculator.py` | Arithmetic and operator selection |
-| `conditionals/login_access_simulator.py` | Basic conditional login simulation |
-| `conditionals/simple_student_result_mang_system.py` | Score validation, averages, and grades |
-| `conditionals/student_grade_calculator.py` | Conditional grade classification |
-| `cybersecurity/cyber_access_checker.py` | Demo role-based access checks |
-| `cybersecurity/cyber_profile_gen.py` | Variables, calculations, and formatted output |
-| `cybersecurity/cybersecurity_risk_classifier.py` | Validating scores and classifying a risk score |
-| `games/game_profile.py` | Variables and formatted output |
-| `games/simple_guessing_game.py` | Comparisons and conditionals |
-| `loops/for_loops/number_ranges.py` | For-loop counting and number-range exercises |
-| `loops/for_loops/conditions.py` | For-loop condition and divisibility exercises |
-| `loops/for_loops/totals_and_counts.py` | For-loop accumulator and counting exercises |
-| `loops/while_loops/counting.py` | While-loop counting exercises |
-| `simulations/simple_atm_simulator.py` | Menu choices and simulated transactions |
-
-The loop exercises are grouped by loop type and topic under `loops/`. The
-`for`-loop examples are commented practice solutions; the active `while`-loop
-example prints the even numbers from 2 through 50.
+Interactive scripts prompt for input in the terminal. The `for`-loop practice
+scripts contain commented exercises; uncomment an exercise to run it.
 
 ## Note
 
