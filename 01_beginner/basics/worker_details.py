@@ -1,4 +1,6 @@
-# Variables
+# LESSON: Variables and calculated values
+# The program stores profile data, reuses those values in calculations, then
+# prints a report. Assignment (=) stores a value; it does not mean equality.
 
 # Variable For Top Design
 top_design = '''
@@ -8,7 +10,8 @@ top_design = '''
 
 '''
 
-# Worker's Detail Variables
+# These are examples of string and integer values. Variable names use
+# underscores to make multiword names readable (a common Python convention).
 worker_name = 'Excellence Oseobulu Oseagwina'
 worker_age = 35
 worker_country = 'Nigeria'
@@ -19,7 +22,9 @@ middle_design = '''
 
 '''
 
-# Worker's Stack Variables
+# Expressions on the right are calculated before assignment: subtraction
+# finds the age at the start of the experience period; multiplication converts
+# years of experience to months. The original variables are not changed.
 worker_degree = 'B.s.c Cyber Security'
 worker_area_of_specialization = "Ethical Hacking"
 worker_programming_language = 'Python'

@@ -1,8 +1,12 @@
+# LESSON: Store information and print a profile
+# Triple quotes let a text value cover several lines. They make it easy to
+# create the borders and headings in this report.
 game_profile_top_design = '''
 ============================================================
                     Game Profile
 ===============================================================
 '''
+# Text values are strings. Age and hours are whole numbers.
 gamer_username = 'Poseidon'
 gamer_real_name = 'Samuel Omoregbe'
 gamer_age = 25
@@ -16,6 +20,8 @@ game_play_duration = 4
 gamer_rank = 'SS'
 game_profile_bottom_design = '==============================================================='
 
+# print() shows each piece of information. str() changes the hours number to
+# text so it can be joined to "hrs". Commas let print() show mixed value types.
 print(game_profile_top_design)
 print('Username:', gamer_username)
 print("Real Name:", gamer_real_name)

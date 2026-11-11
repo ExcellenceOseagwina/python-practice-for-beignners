@@ -1,22 +1,26 @@
-# Declaring personal information variables
+# LESSON: Different kinds of values and making a choice
+# Strings are text, integers are whole numbers, floats have decimal points,
+# and Booleans can only be True or False.
 name = "Excellence Oseobulu Oseagwina"
 country = "Nigeria"
 degree = "B.Sc. Cyber Security"
 age = 43
 height = 1.64
 
-# Declaring programming information variables
+# These True/False values represent yes-or-no facts.
 main_language = "Python"
 learning_python = True
 interested_in_cybersecurity = True
 
-# Calculating next age
+# Add 1 to the current age. The value in age stays the same.
 age_next_year = age + 1
 
+# The if checks whether learning_python is True. The else handles False, so
+# status gets a value either way.
 if learning_python:
     status = "Currently learning Python!"
 
-# Displaying the cybersecurity profile
+# The f-string puts the variable values into the profile text.
 else:
     status = 'Not Learning Python'
 

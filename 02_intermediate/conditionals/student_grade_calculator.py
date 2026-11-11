@@ -1,11 +1,13 @@
-# A Student Grade Calculator
-# Declaring Variable
+# LESSON: Ordered conditions and grade bands
+# The score is written into the program instead of typed by a user. Change it
+# to see which result each choice gives. Python checks choices in order.
 student_name = "Hunter Wise"
 student_score = 67
 student_grade = None
 student_final_result = None
 
-# Determining the final results of the student
+# Check that the score is from 0 to 100 before choosing a grade. `or` means
+# either one of these checks can make the condition true.
 if student_score < 0 or student_score > 100:
     student_grade = "??"
     student_remark = "Result Rejected!"
@@ -14,6 +16,8 @@ if student_score < 0 or student_score > 100:
     Scored: {student_score}
     Remark: {student_remark}'''
     
+# Check the highest grade first. Since earlier checks have failed, this is a
+# score from 70 to 100.
 elif student_score >= 70:
     student_grade = "A"
     student_remark = "Excellent"
@@ -59,4 +63,5 @@ else:
     Remark: {student_remark}'''
 
 
+# Print the report made by the matching choice above.
 print(student_final_result)

@@ -1,4 +1,5 @@
-# Collect the vulnerability details and three 1-5 assessment scores.
+# LESSON: Check scores, add them, and choose a risk level
+# int() changes each answer into a whole number. Enter whole numbers from 1 to 5.
 
 vulnerability_name = input("Enter vulnerability name: ")
 
@@ -6,12 +7,14 @@ severity = int(input("Enter severity score (1-5): "))
 likelihood = int(input("Enter likelihood score (1-5): "))
 impact = int(input("Enter impact score (1-5): "))
 
-# Keep the report unset until the scores have been validated and assessed.
+# None means a score or risk level has not been chosen yet. The program fills
+# these in after checking the answers.
 risk_score = None
 risk_level = None
 risk_message = None
 
-# Reject scores outside the supported range before calculating a risk score.
+# `or` means any one score outside 1 to 5 makes this check true. Parentheses
+# let the long check continue on several lines.
 if (
     severity < 1
     or severity > 5
@@ -36,7 +39,8 @@ Risk Classification:       Nothing to classify since the scores are either less 
 ===============================================
 """
 else:
-    # Add the valid scores, then select the matching risk classification.
+    # Add the three valid scores. Their total can be from 3 to 15. The choices
+    # below use that total to select a risk level.
 
     risk_score = severity + likelihood + impact
     if risk_score <= 5:

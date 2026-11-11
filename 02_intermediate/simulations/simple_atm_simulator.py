@@ -1,7 +1,10 @@
+# LESSON: Choose a menu option and check the amount
+# This is the starting balance. The program shows a new balance for a
+# transaction, but it does not save that new balance for another run.
 account_balance = 50000  # Starting balance for the ATM account
 transaction_message = None
 
-# Display the available ATM options.
+# The menu is text written across several lines. print() shows it on screen.
 print("""
 ==============================
     WELCOME TO PYTHON ATM
@@ -13,15 +16,17 @@ print("""
 ==============================
 """)
 
-# Collect the account holder's name and selected menu option.
+# input() gives us text for the names. int() changes the menu choice to a whole
+# number so it can be checked below. Enter a number for this example.
 account_firstname = input("Enter firstname: ") 
 account_lastname = input("Enter lastname: ")
 account_username = f"{account_firstname} {account_lastname}"
 choice = int(input("Enter choice (1-4): "))
 
-# Prepare a response for the selected transaction.
+# None means no message has been chosen yet. A menu choice will set the message.
 
-# Prepare the account balance inquiry response.
+# if/elif/else chooses what to do for the menu number. The f-string puts the
+# name and balance into the message.
 if choice == 1:
     transaction_message = f'''
 ========================================================
@@ -34,7 +39,8 @@ Account Balance: ₦{account_balance}
 =========================================================
 '''
 
-# Handle a withdrawal request.
+# Ask how much to withdraw. The amount must be above zero and no more than the
+# balance in the account.
 elif choice == 2:
     transaction_message = f'''
 ========================================================
@@ -49,6 +55,8 @@ elif choice == 2:
     withdraw_money = int(input("Enter the amount you want to withdraw: "))
 
     if withdraw_money <= account_balance and withdraw_money > 0:
+        # Subtract the withdrawal to find the new balance. Save it in another
+        # variable so the starting balance stays the same.
         transaction = account_balance - withdraw_money
         transaction_message = f'''
 ========================================================
@@ -76,7 +84,8 @@ Current Account Balance: ₦{account_balance}
 =========================================================
  
 '''
-# Handle a deposit request.
+# Ask how much to deposit. If the amount is above zero, add it to the balance;
+# otherwise, show an error message.
 elif choice == 3:
     transaction_message = f'''
 ========================================================
@@ -115,7 +124,7 @@ Current Account Balance: ₦{deposit_balance}
 =========================================================
 '''
 
-# Prepare the message for exiting the ATM.
+# Choice 4 prepares a goodbye message. The print() at the end shows it.
 elif choice == 4:
     transaction_message =   f'''
 ========================================================
@@ -126,7 +135,7 @@ Thank you {account_username}, for banking with us🤝.
 =========================================================
 '''
 
-# Handle a menu choice outside the available options.
+# This else handles a menu number that is not 1, 2, 3, or 4.
 else:
     transaction_message =   f'''
 ========================================================
@@ -138,5 +147,5 @@ Dear {account_firstname}, Invalid selection. Try 1-4.
 =========================================================
 '''
 
-# Display the response for the selected transaction.
+# Show the message chosen for the menu option.
 print(transaction_message)
