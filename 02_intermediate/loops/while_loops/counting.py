@@ -212,13 +212,13 @@
 
 # Program terminated.
 
-number = int(input("Enter Number: "))
+# number = int(input("Enter Number: "))
 
-while number != 0:
-    number = int(input("Enter Number: "))
-    if number == 0:
-        print("Program terminated.")
-        break
+# while number != 0:
+#     number = int(input("Enter Number: "))
+#     if number == 0:
+#         print("Program terminated.")
+#         break
 
 # Exercise 14 of 25 — Skip Even Numbers and Stop at 35
 # Write a Python program that:
@@ -271,4 +271,97 @@ while number != 0:
 # *****
 # *****
 # *****
+
+# row = 1
+
+# while row <= 5:
+#     col= 1
+#     while col <= 5:
+#         col+=1
+#         print("*", end='')
+#     print()
+#     row+=1
+
+
+# Exercise 17 of 25 — Print an Asterisk Triangle
+# Write a Python program using nested while loops to print the following pattern:
+# Expected output
+# *
+# **
+# ***
+# ****
+# *****
+
+# row = 1
+
+# while row <= 5:
+#     col = 1
+#     while col <= row:
+#         col+=1
+#         print("*", end='')
+#     print()
+#     row+=1
+
+# Exercise 18 of 25 — Multiplication Tables (1–5)
+# Write a Python program using nested while loops to print the multiplication tables from 1 to 5.
+
+# Expected output:
+# Multiplication Table of 1
+# 1 x 1 = 1
+# 1 x 2 = 2
+# 1 x 3 = 3
+# 1 x 4 = 4
+# # 1 x 5 = 5
+
+# Multiplication Table of 2
+# 2 x 1 = 2
+# 2 x 2 = 4
+# 2 x 3 = 6
+# 2 x 4 = 8
+# 2 x 5 = 10
+
+
+# number = 1
+
+# while number <= 5:
+#     multiplier = 1
+
+#     while multiplier <= 5:
+#         total = number * multiplier
+#         print(f"{number} x {multiplier} = {total}")
+#         multiplier += 1
+
+#     print()
+#     number += 1
+
+# Exercise 19 of 25 — Print all pairs
+# Nested while loops
+
+# Write a Python program using nested while loops to print every possible pair of numbers from 1 to 5.
+
+# Expected output:
+# 1 1
+# 1 2
+# 1 3
+# 1 4
+# 1 5
+# 2 1
+# 2 2
+# 2 3
+# ...
+# 5 3
+# 5 4
+# 5 5
+
+
+# x =1
+# y = 1
+
+
+# while x <= 5:
+#     while y <= x:
+
+#         print(x,y)
+#         y+=1
+#     x+=1
 
