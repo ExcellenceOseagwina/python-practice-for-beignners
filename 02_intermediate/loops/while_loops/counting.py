@@ -151,7 +151,7 @@
 #     number = int(input("Enter number: "))
 #     total += number
 #     avg = total / 5
-#     count+=1        
+#     count+=1
 # print(f'''
 # Total: {total}
 # Average: {avg}
@@ -182,15 +182,93 @@
 # 4. Uses continue to skip those numbers.
 
 # Initialize the candidate before the loop. This is the active solution below.
-count = 1
+# count = 1
 
-while count <= 30:
-    # If count divides evenly by 3, add 1 before continuing. Otherwise the same
-    # number would repeat forever. continue skips the print below.
-    if count % 3 == 0:
-        count += 1
-        continue
+# while count <= 30:
+#     # If count divides evenly by 3, add 1 before continuing. Otherwise the same
+#     # number would repeat forever. continue skips the print below.
+#     if count % 3 == 0:
+#         count += 1
+#         continue
 
-    # Print numbers that are not multiples of 3, then check the next number.
-    print(count)
-    count += 1
+#     # Print numbers that are not multiples of 3, then check the next number.
+#     print(count)
+#     count += 1
+
+# Exercise 13 of 25 — Stop When the User Enters 0
+# Write a Python program that:
+# 1. Uses a while loop.
+# 2. Repeatedly asks the user to enter a number.
+# 3. Continues accepting numbers until the user enters 0.
+# 4. Uses break to terminate the loop when 0 is entered.
+
+# Example interaction:
+
+# Enter a number: 5
+# Enter a number: 12
+# Enter a number: 8
+# Enter a number: 3
+# Enter a number: 0
+
+# Program terminated.
+
+number = int(input("Enter Number: "))
+
+while number != 0:
+    number = int(input("Enter Number: "))
+    if number == 0:
+        print("Program terminated.")
+        break
+
+# Exercise 14 of 25 — Skip Even Numbers and Stop at 35
+# Write a Python program that:
+# 1. Uses a while loop.
+# 2. Iterates through numbers 1–50.
+# 3. Skips all even numbers using continue.
+# 4. Stops when it reaches 35 using break.
+# 5. Prints only odd numbers before 35.
+
+# count = 0
+
+# while count <= 50:
+#     count += 1
+
+#     if count == 35:
+#         break
+
+#     if count % 2 == 0:
+#         continue
+
+#     print(count)
+
+# Exercise 15 of 25 — Sum Positive Numbers Until a Negative Number
+# Write a Python program that:
+# 1. Uses a while loop.
+# 2. Repeatedly asks the user to enter a number.
+# 3. Adds positive numbers to a running total.
+# 4. Terminates when the user enters a negative number.
+# 5. Uses break to terminate the loop.
+# 6. Displays the final sum after the loop.
+
+# total = 0
+
+# while True:
+#     number = int(input("Enter a number: "))
+#     if number < 0:
+#         break
+
+#     total += number
+# print(f"Sum of positive numbers: {total}")
+
+
+# Exercise 16 of 25 — Print a 5 × 5 Asterisk Grid
+# Now we're moving into nested loops!
+# Write a Python program that prints five rows, with five asterisks (*) on each row.
+# Expected output:
+
+# *****
+# *****
+# *****
+# *****
+# *****
+
