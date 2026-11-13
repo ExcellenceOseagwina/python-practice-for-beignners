@@ -158,7 +158,8 @@ Some loop exercises demonstrate `break` and `continue`. Run interactive examples
 
 Learn to define and call functions, pass values with parameters, return
 results, and use default arguments. There is not a complete function lesson
-in the repository yet; use the [advanced roadmap](03_advanced/README.md#1-functions)
+in the repository yet. The [`functions.py`](03_advanced/functions.py) file is
+a placeholder; use the [advanced roadmap](03_advanced/README.md#1-functions)
 to guide your practice.
 
 **Practice challenge:** Write a function that converts a temperature from
@@ -225,7 +226,6 @@ python-practice-for-beignners/
 ├── 01_beginner/
 │   ├── basics/
 │   ├── calculators/
-│   ├── functions/
 │   ├── games/
 │   └── loops/
 ├── 02_intermediate/
@@ -236,7 +236,8 @@ python-practice-for-beignners/
 │   ├── loops/
 │   └── simulations/
 ├── 03_advanced/
-│   └── README.md
+│   ├── README.md
+│   └── functions.py
 └── README.md
 ```
 
