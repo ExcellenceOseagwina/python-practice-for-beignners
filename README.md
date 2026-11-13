@@ -46,7 +46,8 @@ By working through the current exercises, you will practise how to:
 - Combine conditions and loops to solve small problems.
 - Organize several basic concepts into console-based projects.
 
-The advanced roadmap introduces topics that can be studied next; those topics are not all implemented as exercises yet.
+The later stages introduce topics to study next; some do not have complete
+practice lessons in this repository yet.
 
 ## Prerequisites
 
@@ -98,7 +99,7 @@ Open the repository folder in your editor. Read the file, run it in a terminal, 
 
 ## Learning path
 
-Follow the stages in order if you are learning Python for the first time. Each stage builds on concepts introduced earlier. The first five stages use exercises that are already in this repository; later stages are study plans, not finished lessons.
+Follow the stages in order if you are learning Python for the first time. Each stage builds on concepts introduced earlier. The first four stages use exercises that are already in this repository; later stages are study plans, and not every topic has a complete exercise yet.
 
 ### Stage 1 — Python basics: output, variables, and values
 
@@ -153,31 +154,44 @@ Some loop exercises demonstrate `break` and `continue`. Run interactive examples
 
 **You are ready to move on when you can:** use a loop to process values and produce a count, total, or other result.
 
-### Stage 5 — Functions
+### Stage 5 — Functions *(study plan)*
 
-Learn to define functions, use parameters and return values, and divide a program into reusable steps.
+Learn to define and call functions, pass values with parameters, return
+results, and use default arguments. There is not a complete function lesson
+in the repository yet; use the [advanced roadmap](03_advanced/README.md#1-functions)
+to guide your practice.
 
-| Exercise | Concepts |
-| --- | --- |
-| [`functions.py`](01_beginner/functions/functions.py) | Defining and calling functions, parameters, return values, and default arguments |
+**Practice challenge:** Write a function that converts a temperature from
+Celsius to Fahrenheit, then call it with several values.
 
-**Practice challenge:** Write a function that converts a temperature from Celsius to Fahrenheit.
+### Stage 6 — Lists, tuples, and sequence processing *(study plan)*
 
-### Stage 6 — Collections *(study plan)*
+Learn to create ordered collections, access and update items, loop through
+collections and text, use `enumerate()`, and practise slicing and membership
+checks. See [Collections and sequence processing](03_advanced/README.md#2-collections-and-sequence-processing).
 
-The repository does not yet include collection exercises. Study lists and tuples first, then dictionaries and sets; practise indexing, iteration, membership checks, and building collections. See [Collections and data structures](03_advanced/README.md#2-collections-and-data-structures).
+**Practice challenge:** Store several expenses in a list and report their
+total and average.
 
-**Practice challenge:** Store several expenses in a list and report their total and average.
+### Stage 7 — Dictionaries, sets, and data projects *(study plan)*
 
-### Stage 7 — Error handling, files, and testing *(study plan)*
+Use dictionaries to organize related values, sets to track unique values, and
+aggregation or comprehensions to summarize data. Build up to a contact book or
+student records manager. See [Dictionaries and applications](03_advanced/README.md#3-dictionaries-and-applications) and [sets, aggregation, and comprehensions](03_advanced/README.md#4-sets-aggregation-and-comprehensions).
 
-Learn to handle invalid input, read tracebacks, save data to files, organize code into modules, and test program behavior. See [Functions and error handling](03_advanced/README.md#1-functions-and-error-handling), [Files and modules](03_advanced/README.md#3-files-and-modules), and [Testing and debugging](03_advanced/README.md#4-testing-and-debugging).
+### Stage 8 — Error handling, files, and testing *(study plan)*
 
-**Practice challenge:** Make a contact book that validates input and saves contacts between runs.
+Learn to handle invalid input, read tracebacks, save data to files, organize
+code into modules, and check program behavior with tests. See [Error handling](03_advanced/README.md#5-error-handling), [Files and modules](03_advanced/README.md#6-files-and-modules), and [Testing and debugging](03_advanced/README.md#7-testing-and-debugging).
 
-### Stage 8 — Object-oriented programming *(study plan)*
+**Practice challenge:** Make a contact book that validates input and saves
+contacts between runs.
 
-After you are comfortable with functions and collections, learn classes, objects, attributes, and methods. Study inheritance and composition only after building a few small classes. See [Object-oriented programming](03_advanced/README.md#5-object-oriented-programming).
+### Stage 9 — Object-oriented programming *(study plan)*
+
+After you are comfortable with functions and collections, learn classes,
+objects, attributes, and methods. Study inheritance and composition after
+building a few small classes. See [Object-oriented programming](03_advanced/README.md#8-object-oriented-programming).
 
 **Practice challenge:** Model books and members in a small library program.
 
@@ -262,7 +276,10 @@ Real security systems require appropriate authentication, authorization, secure 
 
 ## What's next
 
-Continue with the [advanced learning roadmap](03_advanced/README.md) after Stage 5. Those topics are study plans, not a claim that every topic already has a completed exercise in this repository. Add practice files as you learn them.
+Continue with the [advanced learning roadmap](03_advanced/README.md) after
+Stage 5. Those topics are study plans, not a claim that every topic already
+has a completed exercise in this repository. Add practice files as you learn
+them.
 
 ## Contributing
 
