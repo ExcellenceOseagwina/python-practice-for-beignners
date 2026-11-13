@@ -69,20 +69,28 @@ Current Account Balance: ₦{transaction}
         Thank you for banking with us🤝.
 =========================================================
 '''
-# Report an error when the withdrawal exceeds the available balance.
+# Report the specific reason the withdrawal was rejected.
     else:
-         transaction_message = f'''
+        if withdraw_money <= 0:
+            transaction_message = f'''
 ========================================================
               WELCOME TO PYTHON ATM
 =========================================================
-Dear {account_username}, your transaction could not be completed due to insufficient funds. 
-Try again or deposit money.
-Attempted Amount For Withdrawal: {withdraw_money} 
+Dear {account_username}, enter a withdrawal amount greater than zero.
+Attempted Amount For Withdrawal: {withdraw_money}
 Current Account Balance: ₦{account_balance}
-                
-                Thank you for banking with us🤝.
 =========================================================
- 
+'''
+        else:
+            transaction_message = f'''
+========================================================
+              WELCOME TO PYTHON ATM
+=========================================================
+Dear {account_username}, your transaction could not be completed due to insufficient funds.
+Try again or deposit money.
+Attempted Amount For Withdrawal: {withdraw_money}
+Current Account Balance: ₦{account_balance}
+=========================================================
 '''
 # Ask how much to deposit. If the amount is above zero, add it to the balance;
 # otherwise, show an error message.

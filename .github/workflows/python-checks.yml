@@ -24,4 +24,4 @@ jobs:
           python-version: "3.12"
 
       - name: Compile all Python files
-        run: python -m compileall -q 01_beginner 02_intermediate 03_advanced
+        run: python -m compileall -q .
