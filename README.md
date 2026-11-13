@@ -246,4 +246,4 @@ Suggestions, corrections, and beginner-friendly exercises are welcome. Before su
 
 ## License
 
-No license file is currently included in this repository. Unless a license is added, the default copyright rules apply; you should not assume that the code may be reused, modified, or redistributed under an open-source license.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
