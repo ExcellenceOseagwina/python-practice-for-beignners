@@ -1,9 +1,6 @@
 # Next steps: collections, reusable code, and object-oriented Python
 
-This folder is a study roadmap. The repository does not yet contain exercises
-for the topics below. The order follows the later sections of the
-[Coddy Python syllabus](https://coddy.tech/landing/python) and adds files,
-modules, and tests as practical skills to learn alongside it.
+
 
 ## 1. Collections
 
