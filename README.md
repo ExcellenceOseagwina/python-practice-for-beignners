@@ -1,124 +1,249 @@
 # Python Practice for Beginners
 
-A step-by-step path from your first Python program to small console projects.
-The lessons use Python 3 and its standard library; no extra packages are
-needed.
+A hands-on collection of beginner-friendly Python exercises and small console projects. This repository is designed to help you move from your first `print()` statement to solving practical problems with variables, user input, calculations, conditionals, and loops.
 
-## Start here
+The examples use **Python 3** and the **Python standard library**. You do not need to install third-party packages to run the exercises.
 
-If you are new to programming, follow the stages in order. Read each file,
-predict what it will do, and run it from the repository root. Then change a
-value or try different input. When a program asks for a number, enter a valid
-number; input validation comes later in the path.
+> **Learning principle:** Read a small example, predict what it will do, run it, change it, and then try to recreate the solution without looking.
+
+## Contents
+
+- [Who this repository is for](#who-this-repository-is-for)
+- [Learning objectives](#learning-objectives)
+- [Prerequisites](#prerequisites)
+- [Getting started](#getting-started)
+- [Learning path](#learning-path)
+- [How to practise](#how-to-practise)
+- [Repository structure](#repository-structure)
+- [Running the examples](#running-the-examples)
+- [Important notes about simulations](#important-notes-about-simulations)
+- [What's next](#whats-next)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Who this repository is for
+
+This repository is for:
+
+- People who are new to Python or programming.
+- Learners who want short examples they can run and modify.
+- Students practising problem-solving with small console applications.
+- Beginners interested in seeing programming concepts applied to everyday and cybersecurity-themed scenarios.
+
+You can work through the material in order or revisit individual files when practising a specific concept.
+
+## Learning objectives
+
+By working through the current exercises, you will practise how to:
+
+- Create variables and work with strings, integers, floats, and booleans.
+- Display output and collect input from a user.
+- Convert input into numeric values and perform calculations.
+- Use comparison and logical operators.
+- Make decisions with `if`, `elif`, and `else`.
+- Repeat instructions with `for` and `while` loops.
+- Use counters and accumulators to keep track of results.
+- Combine conditions and loops to solve small problems.
+- Organize several basic concepts into console-based projects.
+
+The advanced roadmap introduces topics that can be studied next; those topics are not all implemented as exercises yet.
+
+## Prerequisites
+
+- A computer running Windows, macOS, or Linux.
+- Python 3 installed. Download it from [python.org](https://www.python.org/downloads/).
+- A code editor, such as [Visual Studio Code](https://code.visualstudio.com/), or another editor you prefer.
+- A terminal or command prompt.
+
+Check that Python is available:
+
+```bash
+python --version
+```
+
+On some systems, use `python3 --version` (macOS/Linux) or `py --version` (Windows).
+
+## Getting started
+
+### 1. Get the repository
+
+Clone it with Git:
+
+```bash
+git clone https://github.com/ExcellenceOseagwina/python-practice-for-beignners.git
+cd python-practice-for-beignners
+```
+
+Alternatively, use GitHub's **Code → Download ZIP** option and extract the downloaded archive.
+
+### 2. Choose a lesson
+
+Start with the first beginner example:
 
 ```bash
 python 01_beginner/basics/print_variables.py
 ```
 
-Use a terminal for programs that ask questions. After each lesson, try to
-write a small version yourself without copying.
+If your system uses `python3`, run:
+
+```bash
+python3 01_beginner/basics/print_variables.py
+```
+
+### 3. Practise in your editor
+
+Open the repository folder in your editor. Read the file, run it in a terminal, and experiment with the values and input.
+
+**No virtual environment or dependency installation is required** for the current exercises because they use the Python standard library.
 
 ## Learning path
 
-### 1. First steps: values and output
+Follow the stages in order if you are learning Python for the first time. Each stage builds on concepts introduced earlier.
 
-Learn to run a Python file, assign values to names, and display results.
+### Stage 1 — First steps: values and output
 
-1. [`print_variables.py`](01_beginner/basics/print_variables.py) — variables,
-   text, whole numbers, and `print()`.
-2. [`bool.py`](01_beginner/basics/bool.py) — true and false values.
-3. [`movie_rating.py`](01_beginner/basics/movie_rating.py) — text, integers,
-   decimals, and displaying related information.
-4. [`personal_profile_generator.py`](01_beginner/basics/personal_profile_generator.py)
-   — build a report and convert numbers to text.
-5. [`worker_details.py`](01_beginner/basics/worker_details.py) — reuse values
-   in calculations and output.
+Learn how to run a Python file, assign values to variables, and display information.
 
-**Check your understanding:** explain what a variable stores, name a few basic
-value types, and combine text with a calculated value in printed output.
+| Exercise | Concepts |
+| --- | --- |
+| [`print_variables.py`](01_beginner/basics/print_variables.py) | Variables, strings, integers, and `print()` |
+| [`bool.py`](01_beginner/basics/bool.py) | Boolean values: `True` and `False` |
+| [`movie_rating.py`](01_beginner/basics/movie_rating.py) | Strings, integers, floats, and output |
+| [`personal_profile_generator.py`](01_beginner/basics/personal_profile_generator.py) | Building a report and converting values to text |
+| [`worker_details.py`](01_beginner/basics/worker_details.py) | Reusing variables in calculations and output |
 
-### 2. Input, arithmetic, and choices
+**You are ready to move on when you can:** explain what a variable is, recognize the basic data types, and display a calculated value.
 
-Learn to read what a user types, convert text into numbers, calculate, and
-choose a response with conditions.
+### Stage 2 — Input, arithmetic, and decisions
 
-1. [`simple_calculator.py`](01_beginner/calculators/simple_calculator.py) —
-   input, number conversion, arithmetic, and `if`/`elif`/`else`.
-2. [`simple_guessing_game.py`](01_beginner/games/simple_guessing_game.py) —
-   comparisons, ranges, and combined conditions.
+Learn to accept information from a user, convert input into numbers, perform calculations, and choose what a program does.
 
-**Check your understanding:** write a program that asks a question, checks the
-answer, and responds differently for at least two cases.
+| Exercise | Concepts |
+| --- | --- |
+| [`simple_calculator.py`](01_beginner/calculators/simple_calculator.py) | `input()`, type conversion, arithmetic, and conditionals |
+| [`simple_guessing_game.py`](01_beginner/games/simple_guessing_game.py) | Comparisons, ranges, and combined conditions |
 
-### 3. Repetition and problem solving
+**You are ready to move on when you can:** write a program that asks a question and produces different responses depending on the answer.
 
-Learn to repeat actions, count, and keep a running total.
+### Stage 3 — Loops and repetition
 
-1. [`number_ranges.py`](01_beginner/loops/for_loops/number_ranges.py) — `for`,
-   `range()`, counting, and number patterns.
-2. [`totals_and_counts.py`](02_intermediate/loops/for_loops/totals_and_counts.py)
-   — counters, running totals, and conditions inside loops.
-3. [`conditions.py`](02_intermediate/loops/for_loops/conditions.py) — nested
-   and combined checks inside loops.
-4. [`counting.py`](02_intermediate/loops/while_loops/counting.py) — `while`,
-   `break`, `continue`, repeated input, and nested loops. This file contains
-   interactive examples; run it in a terminal.
+Learn how to repeat instructions, process ranges of numbers, count matching values, and calculate running totals.
 
-**Check your understanding:** use a loop to process a range of numbers and
-report a count or total.
+| Exercise | Concepts |
+| --- | --- |
+| [`number_ranges.py`](01_beginner/loops/for_loops/number_ranges.py) | `for` loops, `range()`, and number sequences |
+| [`totals_and_counts.py`](02_intermediate/loops/for_loops/totals_and_counts.py) | Counters, accumulators, and conditions inside loops |
+| [`conditions.py`](02_intermediate/loops/for_loops/conditions.py) | Nested and combined conditions inside loops |
+| [`counting.py`](02_intermediate/loops/while_loops/counting.py) | `while` loops, repeated input, and nested loops |
 
-### 4. Put the basics together
+Some loop examples demonstrate `break` and `continue`. Run interactive examples in a terminal so you can provide input when prompted.
 
-Use input, conditions, and loops to solve small practical problems.
+**You are ready to move on when you can:** use a loop to process a range of values and produce a count, total, or other result.
 
-1. [`student_grade_calculator.py`](02_intermediate/conditionals/student_grade_calculator.py)
-   — check scores, calculate an average, and choose a grade.
-2. [`simple_student_result_mang_system.py`](02_intermediate/conditionals/simple_student_result_mang_system.py)
-   — apply ordered grade bands and format a report.
-3. [`login_access_simulator.py`](02_intermediate/conditionals/login_access_simulator.py)
-   — nested choices and empty input.
-4. [`bill_split_calc.py`](02_intermediate/calculators/bill_split_calc.py) and
-   [`electricity_bill_calculator.py`](02_intermediate/calculators/electricity_bill_calculator.py)
-   — calculate amounts and select rates.
-5. [`game_profile.py`](02_intermediate/games/game_profile.py) — gather and
-   present related information.
-6. [`cyber_profile_gen.py`](02_intermediate/cybersecurity/cyber_profile_gen.py),
-   [`cyber_access_checker.py`](02_intermediate/cybersecurity/cyber_access_checker.py),
-   and
-   [`cybersecurity_risk_classifier.py`](02_intermediate/cybersecurity/cybersecurity_risk_classifier.py)
-   — practice Python with cybersecurity examples.
-7. [`simple_atm_simulator.py`](02_intermediate/simulations/simple_atm_simulator.py)
-   — combine a menu, decisions, and calculations.
+### Stage 4 — Small practical projects
 
-**Project challenge:** choose one program, let the user repeat actions, handle
-invalid choices, and show a clear result. The login and access examples use
-sample credentials for practice only; they do not protect real accounts or
-information.
+Combine variables, input, calculations, conditionals, and loops in programs that model simple tasks.
 
-### 5. Next: collections, functions, and errors
+| Exercise | Concepts |
+| --- | --- |
+| [`student_grade_calculator.py`](02_intermediate/conditionals/student_grade_calculator.py) | Scores, averages, and grade decisions |
+| [`simple_student_result_mang_system.py`](02_intermediate/conditionals/simple_student_result_mang_system.py) | Ordered grade ranges and formatted results |
+| [`login_access_simulator.py`](02_intermediate/conditionals/login_access_simulator.py) | Nested decisions and empty input |
+| [`bill_split_calc.py`](02_intermediate/calculators/bill_split_calc.py) | Arithmetic and splitting costs |
+| [`electricity_bill_calculator.py`](02_intermediate/calculators/electricity_bill_calculator.py) | Calculations and rate selection |
+| [`game_profile.py`](02_intermediate/games/game_profile.py) | Collecting and presenting related information |
+| [`cyber_profile_gen.py`](02_intermediate/cybersecurity/cyber_profile_gen.py) | A cybersecurity-themed profile |
+| [`cyber_access_checker.py`](02_intermediate/cybersecurity/cyber_access_checker.py) | Conditional access decisions |
+| [`cybersecurity_risk_classifier.py`](02_intermediate/cybersecurity/cybersecurity_risk_classifier.py) | Basic risk classification logic |
+| [`simple_atm_simulator.py`](02_intermediate/simulations/simple_atm_simulator.py) | Menus, decisions, and calculations |
 
-These topics do not have practice files in this repository yet. Learn them in
-order and add a small program of your own for each:
+**Project challenge:** Choose one project and extend it. For example, allow the user to perform multiple operations, handle invalid menu choices, and display a clear result after each operation.
 
-1. Lists and tuples: store ordered values and access or update items.
-2. Loop through collections and text; use `enumerate()`, membership checks,
-   and slicing.
-3. Dictionaries: store related key/value data and look up or update entries.
-4. Sets: store unique values and compare groups.
-5. Functions: name reusable steps, accept parameters, and return results.
-6. Error handling: respond to expected problems such as invalid input.
+## How to practise
 
-Project ideas: an expense tracker, a contact book, or an inventory manager.
+For each exercise, use this workflow:
 
-### 6. Further study: files and object-oriented Python
+1. **Read:** Identify the problem the program is trying to solve.
+2. **Predict:** Before running it, write down what you expect the output to be.
+3. **Run:** Execute the file from the repository root.
+4. **Experiment:** Change values and try different inputs.
+5. **Explain:** Describe what each important line does in your own words.
+6. **Rebuild:** Close the example and try to write a similar program from memory.
+7. **Extend:** Add one small feature without copying a complete solution.
 
-Continue with saving and loading data from files, splitting code into modules,
-and writing tests. Then learn classes, objects, attributes, methods, and
-inheritance. Project idea: a library manager that tracks books and borrowers.
-See the [advanced roadmap](03_advanced/README.md) for a topic-by-topic guide.
+When an exercise asks for input, enter the kind of value it expects. Some early examples assume valid input; input validation is introduced later. If a program behaves unexpectedly, read the error message and check the line number before changing the code.
 
-## Folder guide
+## Repository structure
 
-- `01_beginner/` — first concepts, calculator, guessing game, and `for` loops.
-- `02_intermediate/` — more loop practice and small console projects.
-- `03_advanced/` — roadmap for topics to study and add next.
+```text
+python-practice-for-beignners/
+├── 01_beginner/
+│   ├── basics/
+│   ├── calculators/
+│   ├── games/
+│   └── loops/
+├── 02_intermediate/
+│   ├── calculators/
+│   ├── conditionals/
+│   ├── cybersecurity/
+│   ├── games/
+│   ├── loops/
+│   └── simulations/
+├── 03_advanced/
+│   └── README.md
+└── README.md
+```
+
+The folders are grouped by learning stage and topic. Individual filenames describe the exercise or program they contain.
+
+## Running the examples
+
+Run commands from the **repository root** so the relative file paths in the examples work.
+
+General form:
+
+```bash
+python path/to/file.py
+```
+
+Examples:
+
+```bash
+python 01_beginner/basics/bool.py
+python 01_beginner/calculators/simple_calculator.py
+python 02_intermediate/loops/for_loops/totals_and_counts.py
+```
+
+If `python` is not recognized, try `python3` or `py`, depending on your operating system and Python installation.
+
+## Important notes about simulations
+
+The login, access-checking, ATM, and cybersecurity-themed programs are **educational console simulations**. They demonstrate programming logic; they are not production security tools.
+
+- Do not use sample credentials as real credentials.
+- Do not enter real passwords, personal information, banking details, or other secrets.
+- The access-checking examples do not implement secure authentication or authorization.
+- The risk classifier is a simplified learning exercise, not a formal risk assessment framework.
+- The ATM simulator does not connect to a bank or handle real money.
+
+Real security systems require appropriate authentication, authorization, secure secret storage, input validation, logging, testing, and other controls that are outside the scope of these beginner exercises.
+
+## What's next
+
+The [advanced learning roadmap](03_advanced/README.md) outlines topics to study after the current beginner and intermediate exercises:
+
+1. Collections: lists, tuples, dictionaries, and sets.
+2. Functions and error handling.
+3. Files and modules.
+4. Automated testing.
+5. Object-oriented programming.
+
+These are roadmap topics, not a claim that every topic already has a completed exercise in this repository. Add practice files as you learn them.
+
+## Contributing
+
+Suggestions, corrections, and beginner-friendly exercises are welcome. Before submitting a change, read the [contribution guidelines](CONTRIBUTING.md).
+
+## License
+
+No license file is currently included in this repository. Unless a license is added, the default copyright rules apply; you should not assume that the code may be reused, modified, or redistributed under an open-source license.
