@@ -94,7 +94,7 @@ python3 01_beginner/basics/print_variables.py
 
 Open the repository folder in your editor. Read the file, run it in a terminal, and experiment with the values and input.
 
-**No virtual environment or dependency installation is required** for the current exercises because they use the Python standard library.
+**No virtual environment or dependency installation is required** for the current exercises because they use the Python standard library. A GitHub Actions workflow also checks that the Python files compile whenever changes are pushed to `main` or a pull request targets `main`.
 
 ## Learning path
 
@@ -134,7 +134,7 @@ Learn how to repeat instructions, process ranges of numbers, count matching valu
 | [`number_ranges.py`](01_beginner/loops/for_loops/number_ranges.py) | `for` loops, `range()`, and number sequences |
 | [`totals_and_counts.py`](02_intermediate/loops/for_loops/totals_and_counts.py) | Counters, accumulators, and conditions inside loops |
 | [`conditions.py`](02_intermediate/loops/for_loops/conditions.py) | Nested and combined conditions inside loops |
-| [`counting.py`](02_intermediate/loops/while_loops/counting.py) | `while` loops, repeated input, and nested loops |
+| [`counting.py`](02_intermediate/loops/while_loops/counting.py) | `while` loops, repeated input, and nested loops ([practice guide](02_intermediate/loops/while_loops/README.md)) |
 
 Some loop examples demonstrate `break` and `continue`. Run interactive examples in a terminal so you can provide input when prompted.
 
