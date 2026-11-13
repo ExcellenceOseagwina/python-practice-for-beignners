@@ -98,11 +98,11 @@ Open the repository folder in your editor. Read the file, run it in a terminal, 
 
 ## Learning path
 
-Follow the stages in order if you are learning Python for the first time. Each stage builds on concepts introduced earlier.
+Follow the stages in order if you are learning Python for the first time. Each stage builds on concepts introduced earlier. The first five stages use exercises that are already in this repository; later stages are study plans, not finished lessons.
 
-### Stage 1 — First steps: values and output
+### Stage 1 — Python basics: output, variables, and values
 
-Learn how to run a Python file, assign values to variables, and display information.
+Learn how to run a Python file, display output, assign values to variables, and recognize common data types.
 
 | Exercise | Concepts |
 | --- | --- |
@@ -112,22 +112,35 @@ Learn how to run a Python file, assign values to variables, and display informat
 | [`personal_profile_generator.py`](01_beginner/basics/personal_profile_generator.py) | Building a report and converting values to text |
 | [`worker_details.py`](01_beginner/basics/worker_details.py) | Reusing variables in calculations and output |
 
-**You are ready to move on when you can:** explain what a variable is, recognize the basic data types, and display a calculated value.
+**You are ready to move on when you can:** explain what a variable is, recognize strings, integers, floats, and Booleans, and display their values.
 
-### Stage 2 — Input, arithmetic, and decisions
+### Stage 2 — Operators, input, and type conversion
 
-Learn to accept information from a user, convert input into numbers, perform calculations, and choose what a program does.
+Learn arithmetic and comparison operators, collect text with `input()`, and convert it to numbers before calculating. Some exercises combine these skills with decisions.
 
 | Exercise | Concepts |
 | --- | --- |
 | [`simple_calculator.py`](01_beginner/calculators/simple_calculator.py) | `input()`, type conversion, arithmetic, and conditionals |
-| [`simple_guessing_game.py`](01_beginner/games/simple_guessing_game.py) | Comparisons, ranges, and combined conditions |
+| [`bill_split_calc.py`](02_intermediate/calculators/bill_split_calc.py) | Percentages, arithmetic, and splitting a total |
 
-**You are ready to move on when you can:** write a program that asks a question and produces different responses depending on the answer.
+**You are ready to move on when you can:** collect values, convert them to the right type, and calculate a result.
 
-### Stage 3 — Loops and repetition
+### Stage 3 — Decisions and Boolean logic
 
-Learn how to repeat instructions, process ranges of numbers, count matching values, and calculate running totals.
+Use comparisons and Boolean logic to make a program choose between outcomes.
+
+| Exercise | Concepts |
+| --- | --- |
+| [`simple_guessing_game.py`](01_beginner/games/simple_guessing_game.py) | Comparisons and combined conditions |
+| [`student_grade_calculator.py`](02_intermediate/conditionals/student_grade_calculator.py) | Ordered `if`/`elif`/`else` branches |
+| [`simple_student_result_mang_system.py`](02_intermediate/conditionals/simple_student_result_mang_system.py) | Input validation and nested decisions |
+| [`cyber_access_checker.py`](02_intermediate/cybersecurity/cyber_access_checker.py) | Combining conditions in a themed simulation |
+
+**You are ready to move on when you can:** explain why each branch is selected and combine conditions with `and`, `or`, and `not`.
+
+### Stage 4 — Loops and repetition
+
+Repeat work with `for` and `while`, process sequences of numbers, and keep running counts and totals.
 
 | Exercise | Concepts |
 | --- | --- |
@@ -136,28 +149,46 @@ Learn how to repeat instructions, process ranges of numbers, count matching valu
 | [`conditions.py`](02_intermediate/loops/for_loops/conditions.py) | Nested and combined conditions inside loops |
 | [`counting.py`](02_intermediate/loops/while_loops/counting.py) | `while` loops, repeated input, and nested loops ([practice guide](02_intermediate/loops/while_loops/README.md)) |
 
-Some loop examples demonstrate `break` and `continue`. Run interactive examples in a terminal so you can provide input when prompted.
+Some loop exercises demonstrate `break` and `continue`. Run interactive examples in a terminal so you can provide input when prompted.
 
-**You are ready to move on when you can:** use a loop to process a range of values and produce a count, total, or other result.
+**You are ready to move on when you can:** use a loop to process values and produce a count, total, or other result.
 
-### Stage 4 — Small practical projects
+### Stage 5 — Functions
 
-Combine variables, input, calculations, conditionals, and loops in programs that model simple tasks.
+Learn to define functions, use parameters and return values, and divide a program into reusable steps.
 
 | Exercise | Concepts |
 | --- | --- |
-| [`student_grade_calculator.py`](02_intermediate/conditionals/student_grade_calculator.py) | Scores, averages, and grade decisions |
-| [`simple_student_result_mang_system.py`](02_intermediate/conditionals/simple_student_result_mang_system.py) | Ordered grade ranges and formatted results |
-| [`login_access_simulator.py`](02_intermediate/conditionals/login_access_simulator.py) | Nested decisions and empty input |
-| [`bill_split_calc.py`](02_intermediate/calculators/bill_split_calc.py) | Arithmetic and splitting costs |
-| [`electricity_bill_calculator.py`](02_intermediate/calculators/electricity_bill_calculator.py) | Calculations and rate selection |
-| [`game_profile.py`](02_intermediate/games/game_profile.py) | Collecting and presenting related information |
-| [`cyber_profile_gen.py`](02_intermediate/cybersecurity/cyber_profile_gen.py) | A cybersecurity-themed profile |
-| [`cyber_access_checker.py`](02_intermediate/cybersecurity/cyber_access_checker.py) | Conditional access decisions |
-| [`cybersecurity_risk_classifier.py`](02_intermediate/cybersecurity/cybersecurity_risk_classifier.py) | Basic risk classification logic |
-| [`simple_atm_simulator.py`](02_intermediate/simulations/simple_atm_simulator.py) | Menus, decisions, and calculations |
+| [`functions.py`](01_beginner/functions/functions.py) | Defining and calling functions, parameters, return values, and default arguments |
 
-**Project challenge:** Choose one project and extend it. For example, allow the user to perform multiple operations, handle invalid menu choices, and display a clear result after each operation.
+**Practice challenge:** Write a function that converts a temperature from Celsius to Fahrenheit.
+
+### Stage 6 — Collections *(study plan)*
+
+The repository does not yet include collection exercises. Study lists and tuples first, then dictionaries and sets; practise indexing, iteration, membership checks, and building collections. See [Collections and data structures](03_advanced/README.md#2-collections-and-data-structures).
+
+**Practice challenge:** Store several expenses in a list and report their total and average.
+
+### Stage 7 — Error handling, files, and testing *(study plan)*
+
+Learn to handle invalid input, read tracebacks, save data to files, organize code into modules, and test program behavior. See [Functions and error handling](03_advanced/README.md#1-functions-and-error-handling), [Files and modules](03_advanced/README.md#3-files-and-modules), and [Testing and debugging](03_advanced/README.md#4-testing-and-debugging).
+
+**Practice challenge:** Make a contact book that validates input and saves contacts between runs.
+
+### Stage 8 — Object-oriented programming *(study plan)*
+
+After you are comfortable with functions and collections, learn classes, objects, attributes, and methods. Study inheritance and composition only after building a few small classes. See [Object-oriented programming](03_advanced/README.md#5-object-oriented-programming).
+
+**Practice challenge:** Model books and members in a small library program.
+
+### Practice projects
+
+After Stage 4, choose a project and extend it by combining the concepts you have learned:
+
+- [`electricity_bill_calculator.py`](02_intermediate/calculators/electricity_bill_calculator.py) — calculations and rate selection
+- [`game_profile.py`](02_intermediate/games/game_profile.py) and [`cyber_profile_gen.py`](02_intermediate/cybersecurity/cyber_profile_gen.py) — collecting and presenting related information
+- [`login_access_simulator.py`](02_intermediate/conditionals/login_access_simulator.py) and [`cybersecurity_risk_classifier.py`](02_intermediate/cybersecurity/cybersecurity_risk_classifier.py) — decisions and validation
+- [`simple_atm_simulator.py`](02_intermediate/simulations/simple_atm_simulator.py) — menus, decisions, and calculations
 
 ## How to practise
 
@@ -180,6 +211,7 @@ python-practice-for-beignners/
 ├── 01_beginner/
 │   ├── basics/
 │   ├── calculators/
+│   ├── functions/
 │   ├── games/
 │   └── loops/
 ├── 02_intermediate/
@@ -230,15 +262,7 @@ Real security systems require appropriate authentication, authorization, secure 
 
 ## What's next
 
-The [advanced learning roadmap](03_advanced/README.md) outlines topics to study after the current beginner and intermediate exercises:
-
-1. Collections: lists, tuples, dictionaries, and sets.
-2. Functions and error handling.
-3. Files and modules.
-4. Automated testing.
-5. Object-oriented programming.
-
-These are roadmap topics, not a claim that every topic already has a completed exercise in this repository. Add practice files as you learn them.
+Continue with the [advanced learning roadmap](03_advanced/README.md) after Stage 5. Those topics are study plans, not a claim that every topic already has a completed exercise in this repository. Add practice files as you learn them.
 
 ## Contributing
 

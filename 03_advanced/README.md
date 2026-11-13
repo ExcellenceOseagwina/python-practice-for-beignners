@@ -4,20 +4,7 @@ This roadmap is for learners who have completed the beginner and intermediate ex
 
 The topics below are planned learning steps. They are **not all implemented as exercises in this repository yet**. Study one topic at a time, write small examples, and add practice projects as you progress.
 
-## 1. Collections and data structures
-
-Learn how to store, organize, and process groups of values.
-
-1. **Lists** — create ordered collections, access items by index, update values, and use methods such as `append()`, `remove()`, and `sort()`.
-2. **Tuples** — work with ordered collections that cannot be changed after creation.
-3. **Strings and iteration** — loop through text, check whether a value exists, and use indexing and slicing.
-4. **Dictionaries** — store related key/value pairs, look up values, add entries, and update existing data.
-5. **Sets** — store unique values and perform union, intersection, and difference operations.
-6. **Comprehensions and aggregation** — build collections with comprehensions and use `sum()`, `min()`, `max()`, and `sorted()`.
-
-**Practice projects:** expense tracker, contact book, and student records manager.
-
-## 2. Functions and error handling
+## 1. Functions and error handling
 
 Learn to divide a program into reusable, understandable pieces.
 
@@ -30,6 +17,19 @@ Learn to divide a program into reusable, understandable pieces.
 7. Explore recursion, `map()`, and `filter()` after becoming comfortable with ordinary functions and loops.
 
 **Practice project:** build an inventory manager that can add items, update quantities, search for products, and report available stock. Store the data in a dictionary and put each operation in a separate function.
+
+## 2. Collections and data structures
+
+Learn how to store, organize, and process groups of values.
+
+1. **Lists** — create ordered collections, access items by index, update values, and use methods such as `append()`, `remove()`, and `sort()`.
+2. **Tuples** — work with ordered collections that cannot be changed after creation.
+3. **Strings and iteration** — loop through text, check whether a value exists, and use indexing and slicing.
+4. **Dictionaries** — store related key/value pairs, look up values, add entries, and update existing data.
+5. **Sets** — store unique values and perform union, intersection, and difference operations.
+6. **Comprehensions and aggregation** — build collections with comprehensions and use `sum()`, `min()`, `max()`, and `sorted()`.
+
+**Practice projects:** expense tracker, contact book, and student records manager.
 
 ## 3. Files and modules
 
@@ -73,12 +73,11 @@ Learn how to model related data and behavior with classes and objects.
 
 If you are unsure what to study next, follow this sequence:
 
-1. Collections
-2. Functions
-3. Error handling
-4. Files and modules
-5. Testing and debugging
-6. Object-oriented programming
+1. Functions and error handling
+2. Collections
+3. Files and modules
+4. Testing and debugging
+5. Object-oriented programming
 
 Build a small working program at each stage before moving to the next.
 
