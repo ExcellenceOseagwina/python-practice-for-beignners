@@ -1,3 +1,6 @@
+# LESSON GUIDE: Follow the program in two parts: first it stores profile facts,
+# then it prints them. Change the assigned values and run again to see how the
+# output changes. str() is needed here because + joins text, not numbers.
 # LESSON: Personal Profile Generator
 # This exercise demonstrates variables, data types, arithmetic-free output,
 # and converting numbers to text when joining them with the + operator.

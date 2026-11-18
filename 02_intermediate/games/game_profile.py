@@ -1,3 +1,7 @@
+# LESSON GUIDE: This report stores profile and game details in descriptive
+# variables, then prints them in sections. Values in quotes are strings; age
+# and duration are integers. str() converts duration to text before it is
+# joined with the letters that label the unit.
 # LESSON: Store information and print a profile
 # Triple quotes let a text value cover several lines. They make it easy to
 # create the borders and headings in this report.

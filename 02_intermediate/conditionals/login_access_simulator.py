@@ -1,3 +1,7 @@
+# LESSON GUIDE: This simulation compares typed details with sample values kept
+# in variables. Empty fields are checked first; then nested decisions select
+# the message. Read the comments about sample credentials before experimenting:
+# this simple comparison demonstrates conditions, not secure login design.
 # LESSON: Ask for a username and password, then decide
 # This is a practice program with sample login details written in the file.
 # Do not use this way of storing passwords in a real application.

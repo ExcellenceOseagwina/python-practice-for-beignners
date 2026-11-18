@@ -1,3 +1,8 @@
+# LESSON GUIDE: This console simulation prints a menu, reads a choice, and
+# prepares a message for balance, withdrawal, deposit, or exit. Each branch
+# checks its own conditions and calculates a displayed balance. The starting
+# balance is only in memory, so a deposit or withdrawal is not saved for later.
+# This is a programming exercise; it does not connect to a bank or handle money.
 # LESSON: Choose a menu option and check the amount
 # This is the starting balance. The program shows a new balance for a
 # transaction, but it does not save that new balance for another run.

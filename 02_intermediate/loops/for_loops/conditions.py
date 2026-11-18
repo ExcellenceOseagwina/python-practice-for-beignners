@@ -1,5 +1,10 @@
 """For-loop exercises using divisibility and conditional logic."""
 
+# LESSON GUIDE: These exercises combine repetition with decisions. Each loop
+# supplies a number, then its if/elif/else chain classifies that number. A
+# combined or more specific condition must often come first, because Python
+# stops at the first true branch.
+
 # These examples repeat with for loops and make choices with if/elif/else.
 # Python checks each choice from top to bottom and runs the first true one.
 

@@ -47,7 +47,8 @@ By working through the current exercises, you will practise how to:
 - Organize several basic concepts into console-based projects.
 
 The later stages introduce topics to study next; some do not have complete
-practice lessons in this repository yet.
+practice lessons in this repository yet. Explanations are written directly in
+Python comments so you can read the lesson beside the code it describes.
 
 ## Prerequisites
 
@@ -154,13 +155,14 @@ Some loop exercises demonstrate `break` and `continue`. Run interactive examples
 
 **You are ready to move on when you can:** use a loop to process values and produce a count, total, or other result.
 
-### Stage 5 — Functions *(study plan)*
+### Stage 5 — Functions *(guided notes and practice)*
 
 Learn to define and call functions, pass values with parameters, return
-results, and use default arguments. There is not a complete function lesson
-in the repository yet. The [`functions.py`](03_advanced/functions.py) file is
-a placeholder; use the [advanced roadmap](03_advanced/README.md#1-functions)
-to guide your practice.
+results, and use default arguments. Read the commented examples and challenges
+in [`functions.py`](03_advanced/functions.py), then use the [advanced
+roadmap](03_advanced/README.md#1-functions) to guide further practice. The
+examples are currently written as comments, so they are study notes rather
+than a script that produces output when run.
 
 **Practice challenge:** Write a function that converts a temperature from
 Celsius to Fahrenheit, then call it with several values.
@@ -280,7 +282,7 @@ Real security systems require appropriate authentication, authorization, secure 
 Continue with the [advanced learning roadmap](03_advanced/README.md) after
 Stage 5. Those topics are study plans, not a claim that every topic already
 has a completed exercise in this repository. Add practice files as you learn
-them.
+them and explain each important line with comments in the file.
 
 ## Contributing
 

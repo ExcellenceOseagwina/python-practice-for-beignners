@@ -1,3 +1,6 @@
+# LESSON GUIDE: This report demonstrates storing facts once and reusing them.
+# Read the calculation expressions before the print calls: each result is
+# saved under a new name, leaving the original age and experience unchanged.
 # LESSON: Variables and calculated values
 # The program stores profile data, reuses those values in calculations, then
 # prints a report. Assignment (=) stores a value; it does not mean equality.

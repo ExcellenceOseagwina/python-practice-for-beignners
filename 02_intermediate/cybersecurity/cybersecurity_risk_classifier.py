@@ -1,3 +1,7 @@
+# LESSON GUIDE: Enter three whole-number scores from 1 to 5. The long condition
+# rejects the input if any score is out of range. Otherwise the scores are
+# added and ordered branches map the total to a risk label and report. This is
+# a simplified classroom example, not a real risk-assessment standard.
 # LESSON: Check scores, add them, and choose a risk level
 # int() changes each answer into a whole number. Enter whole numbers from 1 to 5.
 

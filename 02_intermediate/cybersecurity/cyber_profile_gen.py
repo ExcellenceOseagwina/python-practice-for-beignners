@@ -1,3 +1,6 @@
+# LESSON GUIDE: This profile groups text, integer, float, and Boolean values.
+# The program calculates an age for next year, uses a Boolean condition to set
+# a status message, then inserts the stored facts into a multiline f-string.
 # LESSON: Different kinds of values and making a choice
 # Strings are text, integers are whole numbers, floats have decimal points,
 # and Booleans can only be True or False.

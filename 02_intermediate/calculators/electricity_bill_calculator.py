@@ -1,3 +1,7 @@
+# LESSON GUIDE: The program collects a customer's name and electricity usage,
+# selects a per-unit rate based on the usage band, multiplies rate by usage,
+# and builds a report. Follow the nested if/elif choices from top to bottom;
+# the negative-usage check prevents invalid usage from receiving a rate.
 # LESSON: Tier selection with if/elif/else
 # Collect text names and combine them into one full name with an f-string.
 customer_firstname = input("Enter Firstname: ")

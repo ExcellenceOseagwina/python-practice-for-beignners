@@ -1,3 +1,7 @@
+# LESSON GUIDE: The program reads one guess, checks its range, then compares it
+# with the secret number. In an if/elif/else chain only the first matching
+# branch runs. The later chain assigns message again, so its final assignment
+# is what print() displays; trace both chains carefully as you study it.
 # LESSON: Comparisons and mutually exclusive decisions
 # The secret number is set to 6. input() gives us text, and int() changes the
 # guess into a whole number. The player must type a number for this example.

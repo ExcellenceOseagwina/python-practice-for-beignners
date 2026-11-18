@@ -1,5 +1,10 @@
 """For-loop exercises for accumulating totals and counting matches."""
 
+# LESSON GUIDE: A counter tracks how many matches occur; an accumulator keeps
+# a running sum. Each starts at zero, then the loop updates it for each value
+# that meets a condition. Compare count_odd (number of matches) with total
+# (sum of matched values) as you follow the exercises.
+
 # A running total or count is updated as the loop runs. Give it a starting
 # value before the loop so Python has a number to update.
 

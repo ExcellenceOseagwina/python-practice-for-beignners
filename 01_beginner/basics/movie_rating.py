@@ -1,3 +1,6 @@
+# LESSON GUIDE: This profile stores different kinds of values, then displays
+# them. Text is in quotes, whole numbers are integers, and decimal numbers are
+# floats. Notice that print() with commas can display numbers directly.
 # Store related facts in variables. Text uses quotes; year and duration are
 # integers; dividing 10.0 by 10.0 produces a floating-point rating (1.0).
 movie_title = 'Avengers Infinity War Endgame'

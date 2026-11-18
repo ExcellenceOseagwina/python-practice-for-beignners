@@ -1,3 +1,7 @@
+# LESSON GUIDE: Enter a bill amount, a tip percentage, and the number of people.
+# The first two answers can include decimals; the group size is a whole number.
+# The program turns the percentage into a fraction, adds the tip to the bill,
+# divides by the group size, then places both results in an f-string receipt.
 # LESSON: Percentage calculation and equal sharing
 # Enter the bill, tip percent, and number of people, in that order. float()
 # allows decimal amounts; int() is for a whole number of people. Enter valid

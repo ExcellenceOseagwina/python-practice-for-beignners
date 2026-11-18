@@ -1,3 +1,7 @@
+# LESSON GUIDE: This two-step simulation first authenticates one of three
+# sample users, then checks which named resource their role may access.
+# `authenticated` controls whether the resource prompt appears. `access_granted`
+# records the authorization decision. These examples teach Boolean logic only.
 # LESSON: Check a user's name, then check what they may open
 # First the program checks the username and password. Then it checks which
 # pages that user may open. These sample passwords are only for practice.

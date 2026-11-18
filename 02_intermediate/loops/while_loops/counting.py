@@ -1,5 +1,10 @@
 """While-loop exercises for counting."""
 
+# LESSON GUIDE: This file contains 25 while-loop examples, including interactive
+# tasks. Running the whole file runs every example in sequence and may prompt
+# many times. A while loop repeats while its condition is true; each example
+# must update its counter or use break so it can eventually finish.
+
 # A while loop repeats as long as its check is True. Give the counter a starting
 # value and change it in the loop so the loop can stop. Run this file to see each
 # example; interactive exercises prompt for input.

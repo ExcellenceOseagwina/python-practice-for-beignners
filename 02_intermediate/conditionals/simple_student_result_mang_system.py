@@ -1,3 +1,7 @@
+# LESSON GUIDE: Names are collected as text and scores are converted to whole
+# numbers. The first condition rejects any score outside 0–100. Valid scores
+# are added and averaged; the ordered grade checks choose the first matching
+# band, and the f-string combines the results into a report.
 # LESSON: Input, validation, averages, and nested grade decisions
 # input() gives us text. Names stay as text, and int() changes each score into
 # a whole number so we can add and compare the scores.

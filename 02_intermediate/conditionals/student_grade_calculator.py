@@ -1,3 +1,7 @@
+# LESSON GUIDE: Change student_score to explore each result. The program first
+# rejects values outside the allowed range, then checks grade bands from high
+# to low. Because each elif is reached only after earlier checks fail, a score
+# such as 67 receives the B branch. The chosen branch prepares the report.
 # LESSON: Ordered conditions and grade bands
 # The score is written into the program instead of typed by a user. Change it
 # to see which result each choice gives. Python checks choices in order.

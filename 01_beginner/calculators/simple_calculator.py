@@ -1,3 +1,7 @@
+# LESSON GUIDE: Run this in a terminal and enter two numbers plus an operator.
+# input() always starts as text, so float() converts numeric answers. The
+# if/elif chain selects one operation; division has its own zero check. The
+# final else handles any operator not listed above.
 # LESSON: Input, numeric types, and branching
 # input() gives us text. float() changes that text into a number, including
 # numbers with decimals. The user must enter a valid number for this example.

@@ -1,13 +1,22 @@
 # Advanced Python Learning Roadmap
 
 Use this roadmap after completing the beginner and intermediate exercises in
-the [main learning path](../README.md). Some topics below are not implemented
-as lessons in this repository yet. Study them in sequence, write small
-examples, and build the suggested projects as practice.
+the [main learning path](../README.md). Some topics below are study plans
+rather than completed lessons. Read one idea at a time, write small examples,
+and build the suggested projects as practice. The Python files in this course
+explain concepts beside the code with comments; pause to predict what each
+section will do before running it.
 
 ## 1. Functions
 
 Learn to divide a program into reusable, understandable steps.
+
+The [`functions.py`](functions.py) file is a set of commented examples and
+challenges. To practise one, remove the leading `#` markers from a copy of the
+example in your editor, then run that copy. A function body is indented under
+`def`; calling its name is what makes its body run. Parameters are input names
+for a function, arguments are the values supplied when calling it, and
+`return` sends a result back to the caller.
 
 1. Define functions with `def` and call them by name.
 2. Pass information with parameters and arguments.

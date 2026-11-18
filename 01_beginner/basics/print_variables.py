@@ -1,3 +1,8 @@
+# LESSON GUIDE: Read assignments first, then follow the print() calls below.
+# Each name on the left of = keeps the value on the right for later use.
+# Quoted values are text; unquoted whole numbers are integers. str() turns a
+# number into text so + can join it to other text. Commas in print() let Python
+# display values of different types without converting them yourself.
 # A variable is a reusable name attached to a value. These examples show
 # strings (text) and integers (whole numbers) assigned to descriptive names.
 student_name = 'Excellence Oseobulu Oseagwina'

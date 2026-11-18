@@ -1,5 +1,10 @@
 """For-loop exercises for counting, ranges, and number patterns."""
 
+# LESSON GUIDE: Each exercise is a separate loop example. A for loop takes the
+# next value from range(), runs its indented body, then repeats. Read the range
+# endpoints carefully: range() includes its start and stops before its end.
+# Conditional examples use % (remainder) to test evenness and oddness.
+
 # A for loop repeats its indented lines for each number in a group. range()
 # makes the numbers. It stops before its last value, so use 21 to include 20.
 
