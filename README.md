@@ -160,9 +160,9 @@ Some loop exercises demonstrate `break` and `continue`. Run interactive examples
 Learn to define and call functions, pass values with parameters, return
 results, and use default arguments. Read the commented examples and challenges
 in [`functions.py`](03_advanced/functions.py), then use the [advanced
-roadmap](03_advanced/README.md#1-functions) to guide further practice. The
-examples are currently written as comments, so they are study notes rather
-than a script that produces output when run.
+roadmap](03_advanced/README.md#1-functions) to guide further practice. Most
+examples are kept as comments so you can study one at a time; the live example
+at the end demonstrates default arguments and displays its returned results.
 
 **Practice challenge:** Write a function that converts a temperature from
 Celsius to Fahrenheit, then call it with several values.
@@ -171,7 +171,9 @@ Celsius to Fahrenheit, then call it with several values.
 
 Learn to create ordered collections, access and update items, loop through
 collections and text, use `enumerate()`, and practise slicing and membership
-checks. See [Collections and sequence processing](03_advanced/README.md#2-collections-and-sequence-processing).
+checks. Start with the commented [list lesson](03_advanced/list.py), then see
+[Collections and sequence processing](03_advanced/README.md#2-collections-and-sequence-processing)
+for tuples and further practice.
 
 **Practice challenge:** Store several expenses in a list and report their
 total and average.
